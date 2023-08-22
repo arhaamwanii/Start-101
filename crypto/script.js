@@ -19,3 +19,4 @@ $.ajax(settings).done(function(response){
 
     console.log(response)
 });
+// Git hub push request Check
