@@ -59,7 +59,15 @@ body{
 .quotebox span::before{
     content: '';
     width: 20px;
-    height: 2;
-    
+    height: 2px;
+    background: rgb(23 , 123, 229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
 }
-
+.quotebox div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-self: center ;
+}
