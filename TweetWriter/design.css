@@ -24,5 +24,10 @@ body{
     border-radius: 10px;
     /**it gives the circular shape to border of the defined element*/
     text-align: center;
+    /*this tag aligns all of the text of the given element in the center*/
     box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+h2{
+    margin-bottom: 30px;
+    /*adds margin from the bottom of the given element*/
 }
