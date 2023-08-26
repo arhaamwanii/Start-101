@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap');
 *{
-    font-family: ;
+    font-family: 'Playfair Display', sherif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(131, 209, 230);
+}
+.box{
+    background: white;
+    width: 700px;
+    position: absolute;
+    /*position abosolute takes the box element out of its actuall flow of the document*/
+    top: 50%;
+    /*top defines the positomn of the satrting of th element for the top margin of the web page */
+    left: 50%;
+    /*left does the same it also defines the postition of the satring point of the element form the left */
+    transform: translate(-50%,-50%);
+    /*this and top and and left tag used togethr completely center th element, it centers the element about its own mean position*/
+    padding: 40px;
+    /*padding tag is used to make a internal boder other than the actuall border (like internal invisible margin)*/
+    border-radius: 10px;
+    /**it gives the circular shape to border of the defined element*/
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
