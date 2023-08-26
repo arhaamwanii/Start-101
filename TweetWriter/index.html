@@ -9,8 +9,8 @@
 <body>
     <div class="box">
         <h2>Write your Tweet</h2>
-        <div>
-            <input type="text" id="hello" class="tweet" placeholder="Write your tweet" >
+        <div class="tweet">
+            <input type="text" id="hello" placeholder="Write your tweet" >
         </div>
         <div>
             <button onclick="post()">
@@ -20,8 +20,9 @@
     </div>
     <script>
         function post(){
-            window.open("https://twitter.com/intent/tweet?text="  )
+            window.open("https://twitter.com/intent/tweet?text=" )
         }
+        //recieve input from class tweet and add it to the end of the url
     </script>
 </body>
 </html>
